@@ -1,0 +1,119 @@
+body{
+    background: black ;
+    color: rgba(255, 68, 0, 0.76);
+    background-image: url(img/orange-is-the-new-black-serie-netflix.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h1{
+    font-family: 'Alfa Slab One', cursive;
+    background: linear-gradient(to bottom, #ff4400dc 1%,#0e0e0e 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+/*Première partie*/
+.navigation{
+    text-align: left;
+    word-spacing: 50px;
+    padding-bottom: 200px;
+}
+
+h1{
+    text-align: center;
+    font-size: 155px;
+    
+}
+
+footer{
+    padding-top: 10%;
+}
+
+input, textarea{
+    display: table-cell;
+    padding: 10px 250px 11px 4px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: lato;
+    font: 1em;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+
+button{
+    background-color: orangered;
+}
+
+h2{
+    font-size: 40px;
+    padding-top: 5%;
+    text-align: center;
+    font-family : 'Lato', sans-serif;
+    letter-spacing: 5px;
+    background: linear-gradient(to bottom, #ff4400 1%,#0e0e0e 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.contexte{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'PT Serif', serif;
+}
+
+table{
+    border-style: double ;
+    width: 100%;
+    background: linear-gradient(to bottom, #000000c0 1%,#353231c9 100%); 
+    color: white; 
+    border-color: orangered; 
+}
+
+td{
+    font-size: 20px;
+}
+
+.anonce{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(img/oitnb-4.jpg);
+    opacity: 0.55;
+    background-size: contain;
+}
+
+figcaption{
+    font-family : 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+form{
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid orangered;
+    border-radius: 1em;
+    margin-top: 1em;
+}
+
+label{
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+textarea{
+    vertical-align: top;
+    height: 5em;
+}
+
+button{
+    margin-left: 5em;
+}
+
+a {
+    color: rgb(44, 40, 40);
+    font-size: 25px;
+}
